@@ -5,8 +5,11 @@ a, figcaption, h1, h3, li, p {
 a {
   font-size: 100%; /*16*/
   color: #ffffff;
-  text-decoration: none; 
+  text-decoration: none;
+}
 
+a:hover {
+  color: #00ffff
 }
 
 figcaption {
@@ -42,6 +45,7 @@ body {
 
 nav {
   background-color: #000000;
+
   float: left;
   position: fixed;
   width: 100%;
